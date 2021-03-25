@@ -1,19 +1,19 @@
 
 
 .banner {
+
     
-    padding-left: 70px;
     font-family:fantasy;
     text-decoration: none;
+    display:inline-block;
     
-    
-    
-
-
 }
 .logo{
-    height: 100px;
-    width: 100px;
+
+    border: 0px;
+    padding-bottom: 0%;
+    height: 40px;
+    width: 70px;
 }
 .input-group{
 
@@ -27,6 +27,7 @@ width: 500px;
 }
 
 .ecn{
+    text-shadow: 2px 2px black;
     color: aliceblue;
     text-align: center;
     font-size: 50px;
