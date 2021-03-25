@@ -1,21 +1,20 @@
 
 
-.bn {
-    
-    
+.banner {
+
+    margin-left: 10px;
     font-family:fantasy;
     text-decoration: none;
+    display:inline-block;
     
-    
-    
-    
-
-
 }
-.logo{
-    height: 60px;
-    width: 140px;
-}
+/* .logo{
+
+    border: 0px;
+    padding-bottom: 0%;
+    height: 40px;
+    width: 70px;
+} */
 .input-group{
 
 margin: 0 auto;
@@ -28,6 +27,7 @@ width: 500px;
 }
 
 .ecn{
+    text-shadow: 2px 2px black;
     color: aliceblue;
     text-align: center;
     font-size: 50px;
