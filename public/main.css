@@ -2,19 +2,19 @@
 
 .banner {
 
-    
+    margin-left: 10px;
     font-family:fantasy;
     text-decoration: none;
     display:inline-block;
     
 }
-.logo{
+/* .logo{
 
     border: 0px;
     padding-bottom: 0%;
     height: 40px;
     width: 70px;
-}
+} */
 .input-group{
 
 margin: 0 auto;
