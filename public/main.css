@@ -2,9 +2,10 @@
 
 .bn {
     
-    padding-left: 70px;
+    
     font-family:fantasy;
     text-decoration: none;
+    
     
     
     
@@ -12,8 +13,8 @@
 
 }
 .logo{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 140px;
 }
 .input-group{
 
@@ -45,4 +46,8 @@ width: 500px;
     text-align: center;
     padding-bottom: 30px;
 
+}
+.navbar{
+    background-color: rgb(255, 255, 255,1);
+    height: 70px;
 }

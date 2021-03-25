@@ -7,6 +7,7 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "mongoose": "^5.12.2",
+    "nodemon": "^2.0.7",
     "router": "^1.3.5",
     "tmi.js": "^1.7.5",
     "twitch": "^4.5.2",
@@ -15,7 +16,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "author": "ashwin",
   "license": "ISC"
