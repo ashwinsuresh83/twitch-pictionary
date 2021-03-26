@@ -1,26 +1,52 @@
 <%-include('./partials/header.ejs')%>
 
-        
-      <div class="container">
-        <h2 class="ecn">Enter your Twitch channel name:</h2>
-        <div class="input-group mb-3">
 
-        
-            <input type="text" name="stream" class="form-control stream__name" placeholder="stream name" aria-describedby="button-addon1">
-            <button class="btn btn-dark" type="button" id="button-addon1">Wokaay</button>      
-        
-        </div>
+<div class="container">
+    <h2 class="ecn">Enter your Twitch channel name:</h2>
+    <div class="input-group mb-3">
+
+
+        <input type="text" name="stream" class="form-control stream__name" placeholder="stream name"
+            aria-describedby="button-addon1">
+        <button onclick="set_twitchUser()" class="btn btn-dark set-twitch" type="button" id="button-addon1">Wokaay</button>
 
     </div>
-    
-    <div class="container"> 
 
-        <h3 class="cate">Different Categories:   Custom input:</h3>
-                                 
-                                 <div class="text-center">
 </div>
-      </div>
-      
-<script src="../scripts/index.js"></script>
+
+<div class="container">
+
+    <h3 class="cate">Different Categories: Custom input:</h3>
+
+    <div class="text-center">
+        <button onclick="go()" class="btn btn-dark">Lets go</button>
+    </div>
+
+</div>
+<script>
+
+</script>
+
+<div data-spy="scroll" data-target="#navId">
+    
+    <div id="navId">
+        <ul class="nav nav-tabs" role="tablist">
+            
+        </ul>
+    </div>
+    
+</div>
+
+
+<script>
+    set_twitchUser=()=>{
+        twitch__name=document.querySelector(".stream__name").value
+        console.log(twitch__name)
+    }
+    go=()=>{
+        window.location.href="http://localhost:3000/game/" +twitch__name;
+    }
+</script>
+
 </body>
 </html>
