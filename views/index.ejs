@@ -1,15 +1,14 @@
 <%-include('./partials/header.ejs')%>
-
-
+<script src="twitch.js"></script>
 <div class="container">
     <h2 class="ecn">Enter your Twitch channel name:</h2>
     <div class="input-group mb-3">
+<form id="searchChannel">
 
-
-        <input type="text" name="stream" class="form-control stream__name" placeholder="stream name"
+        <input type="text" name="stream" class="form-control stream__name" placeholder="stream name" name="query"
             aria-describedby="button-addon1">
         <button onclick="set_twitchUser()" class="btn btn-dark set-twitch" type="button" id="button-addon1">Wokaay</button>
-
+    </form>
     </div>
 
 </div>
