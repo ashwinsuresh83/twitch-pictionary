@@ -1,9 +1,4 @@
-const form = document.querySelector('#searchChannel');
-form.addEventListener('submit', async function(e){
-    e.preventDefault();
-    const searchTerm = form.elements.query.value;
-    const config = {params: {q:searchTerm}
-    }
+
 const { ChatClient } = require("dank-twitch-irc");
 
 let client = new ChatClient();
