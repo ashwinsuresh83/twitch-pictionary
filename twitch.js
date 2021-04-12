@@ -15,6 +15,4 @@ client.on("PRIVMSG", (msg) => {
 });
 
 client.connect();
-client.join(config);
-
-})
+client.join("xqcow");
